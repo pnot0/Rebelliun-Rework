@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main{
+    background-color: #000;
+}
+
+#header{
+    width: 100%; 
+    display: table;
+}
+
+#headerelements{
+    display: table-row;
+}
+
+#logo{
+    background-color: purple;
+    width: 100px; 
+    display: table-cell;
+    text-align: center;
+}
+
+#namelink{
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+#rightside{
+    background-color: purple;
+    width: 100px; 
+    display: table-cell;
+    text-align: center;
+}
+
+#ofthemoon{
+    background-color: purple;
+    width: 100px; 
+    display: table-cell;
+    text-align: center;
+}
+
+#parallax{
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url("imgs/MicrosoftTeams-image\ \(1\).png");
+    height:700px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1920px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+#container #card {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#container #card #content {
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0%;
+    transition: 0.5s;
+
+}
+
+#container #card:hover #content {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+#container #card #content h4 {
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 3cm;
+    color: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+}
+
+#container #card #content h5 {
+    font-size: 1cm;
+    color: #fff;
+    z-index: 1;
+}
+
+#container #card #content p {
+    font-size: 0.4cm;
+    color: #fff;
+    font-weight: 300;
+}
+
+#container #card #content a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#caixadetexto {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    line-height: 2em;
+}
+
+#textotexto{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#textotexto h1{
+    color: #fff;
+}
