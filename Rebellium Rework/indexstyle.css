@@ -4,6 +4,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body{
+    background-color: #000;
+}
+
 #main{
     background-color: #000;
 }
@@ -29,6 +33,10 @@
     background-color: black;
     color: #fff;
     text-align: center;
+}
+
+#namelink a{
+    color: purple;
 }
 
 #rightside{
@@ -135,11 +143,18 @@
 }
 
 #caixadetexto {
+    text-align: justify;
     background-color: #000;
     color: #fff;
     text-align: center;
     align-items: center;
     font-size: large;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+
+#caixadetexto h2{
     line-height: 2em;
 }
 
@@ -150,4 +165,12 @@
 
 #textotexto h1{
     color: #fff;
+    margin-right: 120px;
+    margin-right: 120px;
 }
+
+  
+a {
+    text-decoration: none;
+  }
+  
