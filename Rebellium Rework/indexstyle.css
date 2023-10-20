@@ -1,11 +1,16 @@
+@font-face {
+    font-family: angel rhapsody;
+    src: url(angel\ rhapsody.ttf)
+}
+
+@font-face {
+    font-family: Por Siempre Gotica;
+    src: url(Por\ Siempre\ Gótica.ttf)
+}
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body{
-    background-color: #000;
 }
 
 #main{
@@ -22,35 +27,41 @@ body{
 }
 
 #logo{
-    background-color: purple;
+    background-color:rgba(128, 0, 128, 0.5);
     width: 100px; 
     display: table-cell;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.titulo {
+    color: whitesmoke;
     text-align: center;
 }
 
 #namelink{
     padding: 20px;
-    background-color: black;
-    color: #fff;
+    background-color: rgb(27, 27, 27);
     text-align: center;
-}
-
-#namelink a{
-    color: purple;
+    font-family: angel rhapsody;
+    font-size: 30px;
 }
 
 #rightside{
-    background-color: purple;
+    background-color:rgba(128, 0, 128, 0.5);
     width: 100px; 
     display: table-cell;
+    color: whitesmoke;
     text-align: center;
 }
 
+
 #ofthemoon{
-    background-color: purple;
+    background-color:rgba(128, 0, 128, 0.5);
     width: 100px; 
     display: table-cell;
     text-align: center;
+    color: whitesmoke;
 }
 
 #parallax{
@@ -143,34 +154,20 @@ body{
 }
 
 #caixadetexto {
-    text-align: justify;
     background-color: #000;
     color: #fff;
     text-align: center;
     align-items: center;
     font-size: large;
-    margin-right: 120px;
-    margin-left: 120px;
-    margin-bottom: 40px;
-}
-
-#caixadetexto h2{
     line-height: 2em;
 }
 
 #textotexto{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
+    font-family: Por Siempre Gotica;
 }
 
 #textotexto h1{
     color: #fff;
-    margin-right: 120px;
-    margin-right: 120px;
 }
-
-  
-a {
-    text-decoration: none;
-  }
-  
