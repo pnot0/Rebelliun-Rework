@@ -1,16 +1,21 @@
 @font-face {
     font-family: angel rhapsody;
-    src: url(angel\ rhapsody.ttf)
+    src: url(Angelrhapsody.ttf)
 }
 
 @font-face {
     font-family: Por Siempre Gotica;
-    src: url(Por\ Siempre\ Gótica.ttf)
+    src: url(PorSiempreGótica.ttf)
 }
 
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Por Siempre Gotica', 'Segoe UI', sans-serif;
+}
+
+body{
+    background-color: #000;
 }
 
 #main{
@@ -19,7 +24,8 @@
 
 #header{
     width: 100%; 
-    display: table;
+    display: table; 
+    border-bottom: 2px solid #363636;
 }
 
 #headerelements{
@@ -37,6 +43,12 @@
 .titulo {
     color: whitesmoke;
     text-align: center;
+    font-family: 'angel rhapsody', 'Segoe UI', sans-serif;
+    transition: all .3s ease;
+}
+
+.titulo:hover{
+    color: purple;
 }
 
 #namelink{
@@ -154,12 +166,21 @@
 }
 
 #caixadetexto {
+    text-align: justify;
     background-color: #000;
     color: #fff;
     text-align: center;
     align-items: center;
     font-size: large;
-    line-height: 2em;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+#caixadetexto h2{
+    line-height: 1em;
+    font-size: 48px;
 }
 
 #textotexto{
@@ -170,4 +191,11 @@
 
 #textotexto h1{
     color: #fff;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+
+a {
+    text-decoration: none;
 }
