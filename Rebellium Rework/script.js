@@ -1,6 +1,8 @@
 function redesPopUp(){
   var background = document.getElementById("main")
+  var popUp = document.getElementById("popUpper")
   background.classList.toggle("mainshow")
+  popUp.style.display = "block"
 }
 
 

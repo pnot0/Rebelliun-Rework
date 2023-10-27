@@ -32,6 +32,25 @@ a{
     opacity: 0.4;
 }
 
+#popUpper{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 999; /* Ensure the pop-up is above other elements */
+}
+
+#popUpperContent{
+    padding: 20px;
+}
+
 #header{
     width: 100%; 
     display: table; 
@@ -126,6 +145,18 @@ a{
     opacity: 0.5;
 }
 
+#wowtable{
+    display: table;
+    margin: 0 auto;
+}
+
+#wowtable h2{
+    display: table-cell;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 #container {
     position: relative;
     display: flex;
@@ -182,6 +213,7 @@ a{
 
 #container #card h5 {
     display: flex;
+    text-shadow: 0px 0px 5px black;
     justify-content: center;
     align-items: center;
     position: absolute;
