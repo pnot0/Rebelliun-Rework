@@ -14,13 +14,13 @@
     font-family: 'Por Siempre Gotica', 'Segoe UI', sans-serif;
 }
 
+body{
+    background-color: #000;
+}
+
 a{
     text-decoration: none;
     color: inherit;
-}
-
-body{
-    background-color: #000;
 }
 
 #main{
@@ -233,3 +233,4 @@ body{
     margin-right: 120px;
     margin-left: 120px;
 }
+
