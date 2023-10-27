@@ -1,7 +1,26 @@
+@font-face {
+    font-family: angel rhapsody;
+    src: url(Angelrhapsody.ttf)
+}
+
+@font-face {
+    font-family: Por Siempre Gotica;
+    src: url(PorSiempreGótica.ttf)
+}
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Por Siempre Gotica', 'Segoe UI', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: #000;
 }
 
 #main{
@@ -10,39 +29,75 @@
 
 #header{
     width: 100%; 
-    display: table;
+    display: table; 
 }
 
 #headerelements{
     display: table-row;
+    background-color: rgb(27, 27, 27);
 }
 
 #logo{
-    background-color: purple;
     width: 100px; 
     display: table-cell;
     text-align: center;
+    color: whitesmoke;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.titulo {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'angel rhapsody', 'Segoe UI', sans-serif;
+    transition: all .3s ease;
+}
+
+.titulo:hover{
+    color: purple;
 }
 
 #namelink{
     padding: 20px;
-    background-color: black;
-    color: #fff;
+    background-color: rgb(27, 27, 27);
     text-align: center;
+    font-family: angel rhapsody;
+    font-size: 30px;
+    vertical-align: middle;
 }
 
 #rightside{
-    background-color: purple;
-    width: 100px; 
+    width: 80px; 
     display: table-cell;
+    color: whitesmoke;
     text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
 }
 
+#rightside p{
+    background-color:rgba(128, 0, 128, 0.5);
+    padding: 14px;
+    border-radius: 24px;
+    margin: 10px;
+}
+
+
 #ofthemoon{
-    background-color: purple;
-    width: 100px; 
+    width: 120px; 
+    margin: 10px;
     display: table-cell;
     text-align: center;
+    color: whitesmoke;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+#ofthemoon p{
+    background-color:rgba(128, 0, 128, 0.5);
+    padding: 14px;
+    border-radius: 24px;
+    margin: 10px;
 }
 
 #parallax{
@@ -55,6 +110,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-top: 1px solid rgba(128, 0, 128);
+    border-bottom: 1px solid rgba(128, 0, 128);
 }
 
 #container {
@@ -65,6 +122,7 @@
     max-width: 1920px;
     flex-wrap: wrap;
     z-index: 1;
+    margin-bottom: 100px;
 }
 
 #container #card {
@@ -87,6 +145,7 @@
 
 #container #card #content {
     padding: 20px;
+    margin-top: 25px;
     text-align: center;
     transform: translateY(100px);
     opacity: 0%;
@@ -95,7 +154,7 @@
 }
 
 #container #card:hover #content {
-    transform: translateY(0px);
+    transform: translateY(30px);
     opacity: 1;
 }
 
@@ -109,16 +168,27 @@
     pointer-events: none;
 }
 
-#container #card #content h5 {
+#container #card h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -120px;
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
     font-size: 1cm;
     color: #fff;
     z-index: 1;
 }
 
 #container #card #content p {
-    font-size: 0.4cm;
+    font-size: 18px;
     color: #fff;
     font-weight: 300;
+    padding: 6px;
+    background: rgba(0,0,0, 0.5);
+    border-radius: 12px;
 }
 
 #container #card #content a {
@@ -135,19 +205,31 @@
 }
 
 #caixadetexto {
+    text-align: justify;
     background-color: #000;
     color: #fff;
     text-align: center;
     align-items: center;
     font-size: large;
-    line-height: 2em;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin: 40px;
+    font-size: 24px;
+}
+
+#caixadetexto h2{
+    line-height: 1em;
+    font-size: 48px;
 }
 
 #textotexto{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
+    font-family: Por Siempre Gotica;
 }
 
 #textotexto h1{
     color: #fff;
+    margin-right: 120px;
+    margin-left: 120px;
 }
