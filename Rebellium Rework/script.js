@@ -1,3 +1,29 @@
+function redesPopUp(){
+  var background = document.getElementById("main")
+  background.classList.toggle("mainshow")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var VanillaTilt = (function () {
     'use strict';
     
