@@ -18,6 +18,11 @@ body{
     background-color: #000;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 #main{
     background-color: #000;
 }
@@ -29,10 +34,10 @@ body{
 
 #headerelements{
     display: table-row;
+    background-color: rgb(27, 27, 27);
 }
 
 #logo{
-    background-color:rgba(128, 0, 128, 0.5);
     width: 100px; 
     display: table-cell;
     text-align: center;
@@ -62,7 +67,6 @@ body{
 }
 
 #rightside{
-    background-color:rgba(128, 0, 128, 0.5);
     width: 80px; 
     display: table-cell;
     color: whitesmoke;
@@ -71,15 +75,29 @@ body{
     font-size: 20px;
 }
 
+#rightside p{
+    background-color:rgba(128, 0, 128, 0.5);
+    padding: 14px;
+    border-radius: 24px;
+    margin: 10px;
+}
+
 
 #ofthemoon{
-    background-color:rgba(128, 0, 128, 0.5);
-    width: 80px; 
+    width: 120px; 
+    margin: 10px;
     display: table-cell;
     text-align: center;
     color: whitesmoke;
     vertical-align: middle;
     font-size: 20px;
+}
+
+#ofthemoon p{
+    background-color:rgba(128, 0, 128, 0.5);
+    padding: 14px;
+    border-radius: 24px;
+    margin: 10px;
 }
 
 #parallax{
@@ -92,8 +110,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 2px solid #3d313c;
-    border-bottom: 2px solid #3d313c;
+    border-top: 1px solid rgba(128, 0, 128);
+    border-bottom: 1px solid rgba(128, 0, 128);
 }
 
 #container {
@@ -136,7 +154,7 @@ body{
 }
 
 #container #card:hover #content {
-    transform: translateY(0px);
+    transform: translateY(30px);
     opacity: 1;
 }
 
@@ -165,9 +183,12 @@ body{
 }
 
 #container #card #content p {
-    font-size: 0.4cm;
+    font-size: 18px;
     color: #fff;
     font-weight: 300;
+    padding: 6px;
+    background: rgba(0,0,0, 0.5);
+    border-radius: 12px;
 }
 
 #container #card #content a {
@@ -213,7 +234,3 @@ body{
     margin-left: 120px;
 }
 
-
-a {
-    text-decoration: none;
-}
