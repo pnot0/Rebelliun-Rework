@@ -72,7 +72,6 @@ a{
 
 .titulo {
     color: whitesmoke;
-    text-align: center;
     font-family: 'angel rhapsody', 'Segoe UI', sans-serif;
     transition: all .3s ease;
 }
@@ -84,14 +83,14 @@ a{
 #namelink{
     padding: 20px;
     background-color: rgb(27, 27, 27);
-    text-align: center;
     font-family: angel rhapsody;
     font-size: 30px;
     vertical-align: middle;
+    margin-left: 40px;
 }
 
 #rightside{
-    width: 80px; 
+    width: 180px; 
     display: table-cell;
     vertical-align: middle;
 }
@@ -104,31 +103,37 @@ a{
     font-size: 20px;
     background-color:rgba(128, 0, 128, 0.5);
     padding: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 24px;
     margin: 10px;
 }
 
 
 #ofthemoon{
-    width: 120px; 
+    width: 185px; 
     margin: 10px;
     display: table-cell;
     text-align: center;
     color: whitesmoke;
     vertical-align: middle;
     font-size: 20px;
+    padding-right: 30px;
 }
 
 #ofthemoon p{
     background-color:rgba(128, 0, 128, 0.5);
     padding: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 24px;
     margin: 10px;
 }
 
 #parallax{
-    display: table-cell;
-    vertical-align: middle;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
     position: relative;
     border-top: 1px solid rgba(128, 0, 128);
     border-bottom: 1px solid rgba(128, 0, 128);
@@ -143,6 +148,25 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+#textotexto{
+    text-align: center;
+    font-family: Por Siempre Gotica;
+    margin-right: 120px;
+    margin-left: 120px;
+    padding: 50px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    z-index: 1;
+}
+
+#textotexto h1{
+    color: #fff;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 
 #wowtable{
@@ -271,20 +295,5 @@ a{
     margin-left: 120px;
     margin-right: 120px;
     text-align: justify;
-}
-
-#textotexto{
-    text-align: center;
-    font-family: Por Siempre Gotica;
-    position: absolute;
-    top: 35%;
-    margin-right: 120px;
-    margin-left: 120px;
-}
-
-#textotexto h1{
-    color: #fff;
-    margin-right: 120px;
-    margin-left: 120px;
 }
 
