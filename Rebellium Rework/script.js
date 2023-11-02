@@ -1,8 +1,15 @@
-function redesPopUp(){
-  var background = document.getElementById("main")
-  var popUp = document.getElementById("popUpper")
-  background.classList.toggle("mainshow")
-  popUp.style.display = "block"
+function redesPopUp(open){
+    var background = document.getElementById("main")
+    var popUp = document.getElementById("popUpper")
+
+    if(open){
+      background.classList.add("mainshow")
+      popUp.style.display = "block"
+    }else{
+      background.classList.remove("mainshow")
+      popUp.style.display = "none"
+    }
+
 }
 
 
