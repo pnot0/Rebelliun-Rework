@@ -1,3 +1,38 @@
+function redesPopUp(open){
+    var background = document.getElementById("main")
+    var popUp = document.getElementById("popUpper")
+
+    if(open){
+      background.classList.add("mainshow")
+      popUp.style.display = "block"
+    }else{
+      background.classList.remove("mainshow")
+      popUp.style.display = "none"
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var VanillaTilt = (function () {
     'use strict';
     

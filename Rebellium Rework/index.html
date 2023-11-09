@@ -3,53 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rebelliun Home</title>
     <link rel="stylesheet" href="indexstyle.css">
 </head>
     <body>
         <script src="script.js"></script>
         
+
+        <!--lista de prioridades do site-->
+
+        <!-- 1 colocar uns pop-up ou redirects nas redes e sobre nós, tava pensando em pop-up no redes e redirect no sobre nós aplicando a ideia
+        das cartas junto com as fotos dos integrantes ou algo assim-->
+
+        <!-- 2 fazer o site parecer mais 𝘪𝘯𝘵𝘶𝘪𝘵𝘪𝘷𝘰, 𝓶𝓸𝓭𝓮𝓻𝓷𝓸 e de uso prático, aplicando a IA através de nosso projeto com rpgs de texto autogenerativos
+            (embora essa ideia de IA ja tenha sido largada não só por nós mas pelo SENAC em si mas fds)-->
+
+        <!-- 3 fazer essa bomba funcionar no celular -->
+
+        <!-- ---------- -->
+
+
+
+
+            
+
+        <div id="popUpper">
+            <div id="popUpperContent">
+                <button id="closeButton" onclick="redesPopUp(false)">
+                    Fechar
+                </button>
+                <div id="popUpperContentButtons">
+                    <button id="instagramImg" onclick="location.href = 'https://www.instagram.com/rebeliun_rpg/';">
+                        <img src="imgs/logo-ig-png-32464.png">
+                    </button>
+                    <button id="youtubeImg" onclick="location.href = '#';">
+                        <img src="imgs/YouTube_full-color_icon_(2017).svg.png">
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+        
+
+
         <div id="main">
+
             <div id="header">
                 <div id="headerelements">
                     <div id="logo">
-                        <p>
-                            Logo
-                        </p>
+                        <img src="imgs/file.jpg">
                     </div>
                     <div id="namelink">
                         <h1>
-                            <a>
-                                fodasse
+                            <a href="https://www.instagram.com/rebeliun_rpg/" class="titulo">
+                                Rebelliun
                             </a>
                         </h1>
                     </div>
                     <div id="rightside">
-                        <p>
-                            Coisas
-                        </p>
+                        <button onclick="redesPopUp(true)">
+                            Redes
+                        </button>
                     </div>
                     <div id="ofthemoon">
-                        <p>
-                            Coisas2
-                        </p>
+                        <a>
+                            <button>
+                                Sobre nós
+                            </button>
+                        </a>
                     </div>
-                </div>
-            </div>
-            <div id="parallax">
-                <div id="textotexto">
-                    <h1>
-                    O grupo Rebeliun RPG tem com principais objetivos trazer o RPG (jogo de interpretação) de forma mais acessível para o público, pretendemos ensinar de forma eficaz e simples as mecânicas e conhecimentos básicos sobre o RPG e também como podemos utilizar da inteligência artificial para produzir diferentes aspectos como artes conceituais e história.
-                    </h1>
                 </div>
             </div>
             
+            <div id="parallax">
+                <div id="parallax-image"></div>
+                <div id="textotexto">
+                    <h1>
+                    O grupo Rebeliun RPG tem com principais objetivos trazer o RPG (jogo de interpretação) 
+                    de forma mais acessível para o público, pretendemos ensinar de forma eficaz e simples as mecânicas e conhecimentos básicos sobre o RPG 
+                    e também como podemos utilizar da inteligência artificial para produzir diferentes aspectos como artes conceituais e história.
+                    </h1>
+                </div>
+            </div>
+
+
+            <div id="caixadetexto">
+                <div id="wowtable">
+                    <h2>O QUE É O</h2>
+                    <h2 style="color: #5D16EC;">RPG</h2>
+                </div>
+                <p>
+                    O RPG é um jogo pouco convencional quando comparamos aos jogos habituais. 
+                    No teatro, você interpreta uma personagem de ficção, seguindo o enredo definido em um roteiro; 
+                    já em um jogo de estratégia, você está seguindo um conjunto de regras onde, para vencer, 
+                    você precisa vencer desafios impostos por seus adversários - cada partida é única, 
+                    já que é impossível prever seus movimentos durante o jogo. No RPG, esses dois universos se unem.
+                    Como em um jogo de estratégia, há regras que o definem, e guiam aquilo que o seu personagem pode ou não fazer. 
+                    A esse conjunto de regras chama-se sistema. Como no teatro, cada personagem tem uma história, 
+                    e deve ser interpretado assim como fazem os atores.
+                </p>
+            </div>
+
+
+
             <div id="container">
                 <div style="background-image: url(imgs/MicrosoftTeams-image.png);" id="card">
+                    <h5 id="titulo">RPG Digital</h5>
                     <div id="content">
-                        <h5 id="titulo">RPG Digital</h5>
                         <p id="textocard">
-                            A forma mais comum de encontrar o RPG. O RPG Digital são jogos de vídeo game que fazem uso de certas mecânicas do RPG em um meio de fácil acesso para um grande público.
+                            A forma mais comum de encontrar o RPG. 
+                            O RPG Digital são jogos de vídeo game que fazem uso de certas mecânicas do RPG em um meio de fácil acesso para um grande público.
                         </p>
                     
                         <a href="pergola.html">Mais informações</a>
@@ -57,10 +121,12 @@
                 </div>
             
                 <div style="background-image: url(imgs/MicrosoftTeams-image\ \(2\).png);" id="card" >
+                    <h5>TableTop RPG</h5>
                     <div id="content">
-                        <h5>Table-Top RPG (TTRPG)</h5>
                         <p>
-                            Um RPG de mesa, também conhecido como tabletop RPG (Ou RPG de mesa), é uma idificação para um RPG no qual os participantes descrevem as ações de seus personagens por meio da fala junto à narração do "Mestre" (Responsável por fazer a ponte entre o mundo e os jogadores) 
+                            Um RPG de mesa, também conhecido como tabletop RPG (Ou RPG de mesa), 
+                            é uma idificação para um RPG no qual os participantes descrevem as ações de seus personagens por meio da fala junto à narração do "Mestre" 
+                            (Responsável por fazer a ponte entre o mundo e os jogadores) 
                         </p>
                         <a href="#">Mais informações</a>
                     </div>
@@ -68,25 +134,18 @@
                 </div>
             
                 <div style="background-image: url(imgs/MicrosoftTeams-image\ \(3\).png);" id="card">
+                    <h5>RPG Por IA</h5>
                     <div id="content">
-                        <h5>RPG Por IA</h5>
                         <p>
-                            O RPG com IA se trata de um termo dado a um RPG de texto produzido inteiramente por inteligência artifical, onde esta Inteligência constrói a história e o mundo com base nas decisões do jogador, estes RPGs não fazem uso de um sistema de regras e são baseados na database da IA.
+                            O RPG com IA se trata de um termo dado a um RPG de texto produzido inteiramente por inteligência artifical, 
+                            onde esta Inteligência constrói a história e o mundo com base nas decisões do jogador, 
+                            estes RPGs não fazem uso de um sistema de regras e são baseados na database da IA.
                         </p>
                         <a href="#">Mais informações</a>
                     </div>
             
                 </div>
-        </div>  
-    
-        <div id="caixadetexto">
-            <p>
-                O QUE É RPG?
-                <br>
-                O RPG é um jogo pouco convencional quando comparamos aos jogos habituais. No teatro, você interpreta uma personagem de ficção, seguindo o enredo definido em um roteiro; já em um jogo de estratégia, você está seguindo um conjunto de regras onde, para vencer, você precisa vencer desafios impostos por seus adversários - cada partida é única, já que é impossível prever seus movimentos durante o jogo. No RPG, esses dois universos se unem.
-                Como em um jogo de estratégia, há regras que o definem, e guiam aquilo que o seu personagem pode ou não fazer. A esse conjunto de regras chama-se sistema. Como no teatro, cada personagem tem uma história, e deve ser interpretado assim como fazem os atores.
-            </p>
-        </div>
+            </div>  
 
         <script>
             VanillaTilt.init(document.querySelectorAll("#card"), {
