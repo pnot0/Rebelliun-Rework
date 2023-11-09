@@ -51,6 +51,13 @@ a{
     font-size: 20px;
 }
 
+#logo img{
+    width: 100px;
+    border-radius: 24px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
 .titulo {
     color: whitesmoke;
     font-family: 'angel rhapsody', 'Segoe UI', sans-serif;
@@ -58,7 +65,7 @@ a{
 }
 
 .titulo:hover{
-    color: purple;
+    color: #5D16EC;
 }
 
 #namelink{
@@ -82,7 +89,7 @@ a{
     color: whitesmoke;
     text-align: center;
     font-size: 20px;
-    background-color:rgba(128, 0, 128, 0.5);
+    background-color:#3C0C9D;
     padding: 14px;
     padding-left: 40px;
     padding-right: 40px;
@@ -113,7 +120,7 @@ a{
     color: whitesmoke;
     text-align: center;
     font-size: 20px;
-    background-color:rgba(128, 0, 128, 0.5);
+    background-color:#3C0C9D;
     padding: 14px;
     padding-left: 30px;
     padding-right: 30px;
@@ -132,8 +139,8 @@ a{
     grid-template-columns: 1fr;
     align-items: center;
     position: relative;
-    border-top: 1px solid rgba(128, 0, 128);
-    border-bottom: 1px solid rgba(128, 0, 128);
+    border-top: 1px solid #5D16EC;
+    border-bottom: 1px solid #5D16EC;
 }
 
 #parallax-image{
@@ -321,7 +328,7 @@ a{
     border: none;
     border-radius: 32px;
     padding: 10px 30px;
-    background-color: brown;
+    background-color: #3C0C9D;
     transition: all .4s;
 }
 
@@ -349,4 +356,14 @@ a{
 
 #popUpperContentButtons button:hover{
     opacity: .4;
+}
+
+#instagramImg img{
+    object-fit: cover;
+    width: inherit;
+}
+
+#youtubeImg img{
+    object-fit: cover;
+    width: inherit;
 }
