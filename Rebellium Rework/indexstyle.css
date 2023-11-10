@@ -156,7 +156,7 @@ a{
 #parallax-image{
     background-image: url("imgs/MicrosoftTeams-image\ \(1\).png");
     height: 500px; 
-    width: 100vw;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -376,4 +376,58 @@ a{
 #youtubeImg img{
     object-fit: cover;
     width: inherit;
+}
+
+
+
+#footerheader{
+    background-color: #3C0C9D;
+}
+
+#footer{
+    width: 100%; 
+    display: grid;
+}
+
+#footerelements{
+    display: table-row;
+    background-color: rgb(27, 27, 27);
+}
+
+#footerleftside{
+    width: 100px; 
+    display: table-cell;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+#footercentral{
+    padding: 20px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    font-family: angel rhapsody;
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+#footerrightside{
+    width: 180px; 
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#footerofthemoon{
+    width: 185px; 
+    margin: 10px;
+    display: table-cell;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    font-size: 20px;
+    padding-right: 30px;
 }
