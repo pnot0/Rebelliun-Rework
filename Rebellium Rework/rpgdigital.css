@@ -377,3 +377,58 @@ a{
     object-fit: cover;
     width: inherit;
 }
+
+#articleimg {
+    align-content: left;
+    height: 600px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+
+#articletext {
+    background-color: #000;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Boston Angel';  
+}
+
+#articletitle {
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Inlander';
+}
+
+
+.middle {
+    width: 50%;
+    color: #fff;
+    display: grid;
+    position: relative;
+    left: 900px;
+    bottom: 110px
+  }
+
+.column {
+    width: 600px; 
+    padding: 50px;
+    color: #fff;
+    height: 50px;
+  }
+
+  .column1 {
+    width: 600px;
+    padding: 50px;
+    color: #fff;
+    font-size: 150px;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
