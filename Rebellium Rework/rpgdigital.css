@@ -156,7 +156,6 @@ a{
 #parallax-image{
     background-image: url("imgs/MicrosoftTeams-image.png");
     height: 500px; 
-    width: 100vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -390,14 +389,14 @@ a{
     background-color: #000;
     color: #fff;
     font-size: 25px;
-    font-family: 'Boston Angel';  
+    text-align: justify;
 }
 
 #articletitle {
     background-color: #000;
     color: #fff;
-    font-size: 30px;
-    font-family: 'Inlander';
+    font-size: 48px;
+    text-align: center;
 }
 
 
@@ -426,9 +425,10 @@ a{
     text-align: center;
   }
   
-  .row::after {
+  .row {
     content: "";
     display: table;
     clear: both;
+    margin-top: 20px;
   }
   
