@@ -156,7 +156,6 @@ a{
 #parallax-image{
     background-image: url("imgs/MicrosoftTeams-image\ \(3\).png");
     height: 500px; 
-    width: 100vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -426,9 +425,10 @@ a{
     text-align: center;
   }
   
-  .row::after {
+  .row {
     content: "";
     display: table;
     clear: both;
+    margin-top: 20px;
   }
   
