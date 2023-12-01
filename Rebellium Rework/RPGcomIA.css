@@ -113,37 +113,6 @@ a{
     opacity: 0.4;
 }
 
-#ofthemoon{
-    width: 185px; 
-    margin: 10px;
-    display: table-cell;
-    text-align: center;
-    color: whitesmoke;
-    vertical-align: middle;
-    font-size: 20px;
-    padding-right: 30px;
-}
-
-#ofthemoon button{
-    cursor: pointer;
-    border: none;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 20px;
-    background-color:#3C0C9D;
-    padding: 14px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 24px;
-    margin: 10px;
-
-    transition: all .4s;
-}
-
-#ofthemoon button:hover{
-    opacity: 0.4;
-}
-
 #parallax{
     display: grid;
     grid-template-columns: 1fr;
@@ -163,151 +132,6 @@ a{
     opacity: 0.5;
     grid-row-start: 1;
     grid-column-start: 1;
-}
-
-#textotexto{
-    text-align: center;
-    font-family: Por Siempre Gotica;
-    margin-right: 120px;
-    margin-left: 120px;
-    padding: 50px;
-    grid-row-start: 1;
-    grid-column-start: 1;
-    z-index: 1;
-}
-
-#textotexto h1{
-    color: #fff;
-    margin-right: 120px;
-    margin-left: 120px;
-}
-
-#wowtable{
-    display: table;
-    margin: 0 auto;
-}
-
-#wowtable h2{
-    display: table-cell;
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-#container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1920px;
-    flex-wrap: wrap;
-    z-index: 1;
-    margin-bottom: 100px;
-}
-
-#container #card {
-    position: relative;
-    width: 280px;
-    height: 400px;
-    margin: 30px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-#container #card #content {
-    padding: 20px;
-    margin-top: 25px;
-    text-align: center;
-    transform: translateY(100px);
-    opacity: 0%;
-    transition: 0.5s;
-
-}
-
-#container #card:hover #content {
-    transform: translateY(30px);
-    opacity: 1;
-}
-
-
-#container #card #content h4 {
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 3cm;
-    color: rgba(255, 255, 255, 0.5);
-    pointer-events: none;
-}
-
-#container #card h5 {
-    display: flex;
-    text-shadow: 0px 0px 5px black;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -120px;
-    padding: 20px;
-    text-align: center;
-    transform: translateY(100px);
-    font-size: 1cm;
-    color: #fff;
-    z-index: 1;
-}
-
-#container #card #content p {
-    font-size: 18px;
-    color: #fff;
-    font-weight: 300;
-    padding: 6px;
-    background: rgba(0,0,0, 0.5);
-    border-radius: 12px;
-}
-
-#container #card #content a {
-    position: relative;
-    display: inline-block;
-    padding: 8px 20px;
-    margin-top: 15px;
-    background: #fff;
-    color: #000;
-    text-decoration: none;
-    border-radius: 20px;
-    font-weight: 500;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-#caixadetexto {
-    text-align: justify;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    align-items: center;
-    font-size: large;
-    margin-right: 120px;
-    margin-left: 120px;
-    margin: 40px;
-    font-size: 24px;
-}
-
-#caixadetexto h2{
-    line-height: 1em;
-    font-size: 48px;
-}
-
-#caixadetexto p{
-    margin: 20px;
-    margin-left: 120px;
-    margin-right: 120px;
-    text-align: justify;
 }
 
 #popUpper{
@@ -378,10 +202,10 @@ a{
 }
 
 #articleimg {
-    align-content: left;
     height: 600px;
     width: 800px;
     border-radius: 10px;
+    align-items: center;
 }
 
 
@@ -389,16 +213,15 @@ a{
     background-color: #000;
     color: #fff;
     font-size: 25px;
-    font-family: 'Boston Angel';  
+    text-align: justify;
 }
 
 #articletitle {
     background-color: #000;
     color: #fff;
-    font-size: 30px;
-    font-family: 'Inlander';
+    font-size: 48px;
+    text-align: center;
 }
-
 
 .middle {
     width: 50%;
@@ -430,5 +253,83 @@ a{
     display: table;
     clear: both;
     margin-top: 20px;
-  }
+}
+
+#video{
+    width: 800px;
+    height: 600px;
+}
   
+  @media only screen and (max-width: 800px) {
+    #logo img{
+        width: 70px;
+        border-radius: 24px;
+        margin: 10px;
+        margin-right: 0;
+    }
+    #namelink{
+        padding: 20px;
+        background-color: rgb(27, 27, 27);
+        font-family: angel rhapsody;
+        font-size: 16px;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+    #rightside button{
+        cursor: pointer;
+        border: none;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 16px;
+        background-color:#3C0C9D;
+        padding: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 24px;
+        margin: 20px;
+    
+        transition: all .4s;
+    }
+    .column {
+        height: 420px;
+        width: 100vw;
+        margin-top: 10px;
+        padding: 0;
+        color: #fff;
+      }
+    .middle {
+        width: initial;
+        margin: 40px;
+        margin-top: 10px;
+        color: #fff;
+        display: block;
+        position: initial;
+      }
+    #articleimg {
+        height: 400px;
+        width: 100vw;
+        margin-top: 10px;
+        border-radius: 10px;
+        align-items: center;
+    }
+    #articletext {
+        background-color: #000;
+        color: #fff;
+        font-size: 25px;
+        text-align: justify;
+    }
+    #articletitle {
+        background-color: #000;
+        color: #fff;
+        font-size: 48px;
+        text-align: center;
+    }
+    .row{
+        display: block;
+        margin-top: 0;
+    }
+    #video{
+        height: 400px;
+        width: 100vw;
+    }
+} 
