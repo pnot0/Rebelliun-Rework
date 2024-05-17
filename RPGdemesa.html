@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebelliun Home</title>
+    <link rel="stylesheet" href="RPGdemesa.css">
+    <link rel="icon" type="image/x-icon" href="imgs/file.jpg">
+</head>
+    <body>
+        <script src="script.js"></script>
+
+
+
+
+            
+
+        <div id="popUpper">
+            <div id="popUpperContent">
+                <button id="closeButton" onclick="redesPopUp(false)">
+                    Fechar
+                </button>
+                <div id="popUpperContentButtons">
+                    <button id="instagramImg" onclick="location.href = 'https://www.instagram.com/rebeliun_rpg/';">
+                        <img src="imgs/logo-ig-png-32464.png">
+                    </button>
+                    <button id="youtubeImg" onclick="location.href = '#';">
+                        <img src="imgs/YouTube_full-color_icon_(2017).svg.png">
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+        
+
+
+        <div id="main">
+
+            <div id="header">
+                <div id="headerelements">
+                    <div id="logo">
+                        <img src="imgs/file.jpg">
+                    </div>
+                    <div id="namelink">
+                        <h1>
+                            <a href="index.html" class="titulo">
+                                Rebelliun
+                            </a>
+                        </h1>
+                    </div>
+                    <div id="rightside">
+                        <button onclick="redesPopUp(true)">
+                            Redes
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="parallax">
+                <div id="parallax-image"></div>
+            </div>
+                        
+            <div class="row">
+                <div class="column">
+                    <iframe id="video" src="https://www.youtube.com/embed/rGliKN83Yq0?si=T3biUSZfurDptMce" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="middle">
+                  <h2 id="articletitle">O QUE É RPG DE MESA?</h2>
+                  <br>
+                  <p id="articletext">
+                    O RPG de mesa, também conhecido como RPG de mesa ou tabletop RPG, é uma forma de entretenimento interativo que ocorre em grupo, geralmente em torno de uma mesa, onde os participantes assumem papéis fictícios e colaboram para criar uma narrativa conjunta. Este tipo de jogo depende fortemente da imaginação dos jogadores e do mestre do jogo, que desempenha um papel crucial na criação e condução do universo fictício.
+ Os jogadores criam personagens com características únicas, como habilidades, raças e histórias de fundo, e interagem com o mundo imaginário apresentado pelo mestre. O mestre do jogo é responsável por estabelecer o cenário, criar desafios e personagens não jogáveis, além de guiar a história com base nas decisões dos jogadores.
+ O aspecto central do RPG de mesa é a interpretação de personagens, onde os jogadores tomam decisões e resolvem desafios com base nas características e habilidades de seus personagens. Isso é frequentemente complementado por dados, que são usados para determinar o sucesso ou falha em certas ações, acrescentando um elemento de aleatoriedade à narrativa.
+ Dungeons & Dragons (D&D) é um dos exemplos mais proeminentes de RPG de mesa, oferecendo uma ampla variedade de cenários e regras que podem ser adaptadas para diferentes estilos de jogo. No entanto, a diversidade desse hobby é evidente em muitos outros sistemas, cada um com suas próprias nuances e ambientações, abrangendo desde mundos de fantasia e ficção científica até horror e mistério. O RPG de mesa destaca-se por sua capacidade única de proporcionar experiências narrativas personalizadas e colaborativas, onde a imaginação é o principal meio de exploração e aventura."</p>
+                </div>
+                
+        <script>
+            VanillaTilt.init(document.querySelectorAll("#card"), {
+                max: 10,
+                speed: 400,
+            });
+
+        </script>
+    </body>
+</html>
